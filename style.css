@@ -1,0 +1,513 @@
+* {
+  box-sizing: content-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Alegreya';
+  line-height: 1.6;
+  background: #073228;
+  color: #333;
+}
+
+.header{
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+header {
+  background: #073228;
+  border-bottom: 2px solid #073228;
+  padding: 1rem 0;
+}
+
+
+header h1 {
+  color: #bfd6d1;
+ text-align: center;
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+  }
+
+nav a {
+  text-decoration: none;
+  color: #b8e6db;
+  font-weight: 500;
+}
+nav a:hover{
+  color: #22d4aa;
+}
+nav a:visited {
+  color: #22d4aa;
+}
+.home {
+  background-color: #B2CBC7;
+  text-align: center;
+  padding: 4rem 1rem;
+  margin-bottom: 2rem;
+  border-bottom:2px solid #073228;
+}
+
+.home h1{
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+  color: #073228;
+}
+.home p {
+  color: #073228;
+}
+.home .btn {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.75rem 1.5rem;
+  background: #2d6153;
+  color: #FFFFFF;
+  text-decoration: none;
+  border-radius: 4px;
+}
+.feature h1{
+   color: #bfd6d1;
+ text-align: center;
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+}
+.feature p{
+   color: #bfd6d1;
+ text-align: center;
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+  padding-bottom: 30px;
+}
+hr{
+  margin-bottom: 10px;
+  height: 5px;
+  background-color:#bfd6d1;
+}
+  .reel-container {
+  aspect-ratio: 9/16;  
+  overflow: hidden;    
+  position: relative;
+    width: 100%;
+  object-fit: cover; 
+  object-position: center;
+  justify-content: center;
+     display: flex;
+}
+.instagram-media{
+    margin: 0 !important;
+  min-width: 0 !important;
+  width: 320px !important;
+  max-width: 320px !important;
+}
+.container{
+  text-align: center;
+  color: #bfd6d1;
+}
+/*Midset*/
+.Mindset {
+  background-color: #B2CBC7;
+  text-align: center;
+  padding: 4rem 1rem;
+  margin-bottom: 2rem;
+  border-bottom:2px solid #073228;
+}
+
+.Mindset h1{
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+  color: #073228;
+}
+.Mindset p {
+  color: #073228;
+  font-size: 1.5rem;
+   margin-bottom: 0;
+}
+
+.container{
+  text-align: center;
+  color: #bfd6d1;
+}
+hr{
+ background-color: #073228;
+  border: none;
+  height: 2px;
+  margin-top: 35px;
+}
+
+.smr-reels {
+  padding: 50px 7%; }
+.section-header span { 
+  display: block;
+  color: #073228; 
+  font-size: 13px; 
+  font-weight: 700; 
+  letter-spacing: 3px;
+  margin-bottom: 15px; }
+.section-header h2 { 
+  font-size: clamp(40px, 5vw, 64px);
+  line-height: 1; 
+  letter-spacing: -2px;
+color: #073228;
+   margin-bottom: 10px; 
+}
+.section-header p {
+  color: #073228; 
+  font-size: 17px;
+  line-height: 1.6; 
+  max-width: 500px;
+text-align: center;
+} 
+.hre{
+  background-color: #073228;
+  border: none;
+  height: 2px;
+  margin-top: 35px;
+  margin-bottom: 25px;
+}
+/* Apply the grid layout to the parent wrapper */
+.reels-grid {
+  display: grid;
+  /* Creates 3 columns that adjust automatically based on screen space */
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); 
+  gap: 24px; 
+  margin-top: 30px;
+  justify-items: center; /* Centers the reels horizontally within their grid column */
+}
+
+/* Make sure individual items allow embedded iframes to center */
+.reel-item {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+/* Force override Instagram's layout scripts */
+.instagram-media {
+  margin: 0 auto !important;
+  min-width: 320px !important;
+  max-width: 320px !important;
+  width: 100% !important;
+}
+
+/*Template*/
+.home {
+  background-color: #B2CBC7;
+  text-align: center;
+  padding: 4rem 1rem;
+  margin-bottom: 2rem;
+  border-bottom:2px solid #073228;
+}
+
+.home h1{
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  color: #073228;
+}
+.home .btn {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.75rem 1.5rem;
+  background: #2d6153;
+  color: #FFFFFF;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.container{
+  text-align: center;
+  color: #bfd6d1;
+}
+
+/*Edit*/
+.home {
+  background-color: #B2CBC7;
+  text-align: center;
+  padding: 4rem 1rem;
+  margin-bottom: 2rem;
+  border-bottom:2px solid #073228;
+}
+
+.home h1{
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  color: #073228;
+}
+.home .btn {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.75rem 1.5rem;
+  background: #2d6153;
+  color: #FFFFFF;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.container{
+  text-align: center;
+  color: #bfd6d1;
+}
+.editing-section {
+  padding: 100px 7%;
+  background: #073228;
+  color: white;
+ border-radius: 10px;
+  margin-top: 20px;
+}
+
+.editing-title {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.editing-title span {
+  color: #B2CBC7;
+  font-size: 13px;
+  font-weight: bold;
+  letter-spacing: 3px;
+}
+
+.editing-title h2 {
+  margin-top: 15px;
+  font-size: clamp(35px, 5vw, 60px);
+}
+
+/* Comparison layout */
+
+.comparison {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+
+.video-column {
+  text-align: center;
+}
+
+.video-column h3 {
+  font-size: 15px;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+  color: #B2CBC7;
+  margin-top: 20px;
+}
+
+/* Video boxes */
+
+.video-box {
+  width: 280px;
+  aspect-ratio: 9 / 16;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 16px;
+
+  font-size: 18px;
+  font-weight: bold;
+
+  overflow: hidden;
+}
+
+.original {
+  background: #4f615c;
+}
+
+.edited {
+  background: #B2CBC7;
+  color: #073228;
+}
+
+/* Arrow */
+
+.arrow {
+  font-size: 50px;
+  color: #B2CBC7;
+  transition: transform 0.3s ease;
+}
+
+.arrow:hover {
+  transform: translateX(10px);
+}
+
+/* Mobile */
+
+@media (max-width: 700px) {
+  .comparison {
+    flex-direction: column;
+    gap: 25px;
+  }
+
+  .arrow {
+    transform: rotate(90deg);
+  }
+
+  .arrow:hover {
+    transform: rotate(90deg) translateX(10px);
+  }
+
+  .video-box {
+    width: min(280px, 80vw);
+  }
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+  }
+
+nav a {
+  text-decoration: none;
+  color: #b8e6db;
+  font-weight: 500;
+}
+nav a:hover{
+  color: #22d4aa;
+}
+nav a:visited {
+  color: #22d4aa;
+}
+.home {
+  background-color: #B2CBC7;
+  text-align: center;
+  padding: 4rem 1rem;
+  margin-bottom: 2rem;
+  border-bottom:2px solid #073228;
+}
+
+.home h1{
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  color: #073228;
+}
+.home .btn {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.75rem 1.5rem;
+  background: #2d6153;
+  color: #FFFFFF;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.container{
+  text-align: center;
+  color: #bfd6d1;
+}
+.editing-section {
+  padding: 100px 7%;
+  background: #073228;
+  color: white;
+}
+
+.editing-title {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.editing-title span {
+  color: #B2CBC7;
+  font-size: 13px;
+  font-weight: bold;
+  letter-spacing: 3px;
+}
+
+.editing-title h2 {
+  margin-top: 15px;
+  font-size: clamp(35px, 5vw, 60px);
+}
+
+/* Comparison layout */
+
+.comparison {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+
+.video-column {
+  text-align: center;
+}
+
+.video-column h3 {
+  font-size: 15px;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+  color: #B2CBC7;
+}
+
+/* Video boxes */
+
+.video-box {
+  width: 280px;
+  aspect-ratio: 9 / 16;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 16px;
+
+  font-size: 18px;
+  font-weight: bold;
+
+  overflow: hidden;
+}
+
+.original {
+  background: #4f615c;
+}
+
+.edited {
+  background: #B2CBC7;
+  color: #073228;
+}
+
+/* Arrow */
+
+.arrow {
+  font-size: 50px;
+  color: #B2CBC7;
+  transition: transform 0.3s ease;
+}
+
+.arrow:hover {
+  transform: translateX(10px);
+}
+
+/* Mobile */
+
+@media (max-width: 700px) {
+  .comparison {
+    flex-direction: column;
+    gap: 25px;
+  }
+
+  .arrow {
+    transform: rotate(90deg);
+  }
+
+  .arrow:hover {
+    transform: rotate(90deg) translateX(10px);
+  }
+
+  .video-box {
+    width: min(280px, 80vw);
+  }
+}
